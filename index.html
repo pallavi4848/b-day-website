@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setupMusic()">
+
+<div class="heart-bg"></div>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵 Music</button>
+
+<div class="container">
+  <h1>💖 Welcome My Love 💖</h1>
+  <h2>Karthikeya 😘</h2>
+
+  <p style="color:#b0005a; font-size:18px;">
+    Enter the secret password to unlock your surprise 💌
+  </p>
+
+  <input type="password" id="password" placeholder="Enter Password 🔒">
+  <br>
+
+  <button onclick="checkPassword()">Login 💕</button>
+
+  <p style="margin-top:25px; color:#b0005a;">
+    Hint: It’s something romantic 😭💗
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
 
