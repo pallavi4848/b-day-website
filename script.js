@@ -73,22 +73,13 @@ function startTypingLetter() {
   letterBox.style.display = "block";
 
   let message = `
-To my sweetest love Karthikeya 💖,
+To my sweetest Karthikeya 💖,
 
-Happy Birthday my love 😭🎂💗
+Happy birthday to my love❤️...! whom I care about more than anything in the world..Cheers to 19 my boyy🥂!!! Thank you for being the best part of my happiness and joy🤌💗 I wish our happiness never ends 🥰..Among the few good things that I have ever done in my life, falling in love with you was the best🫣..I wanted to give you all my love for your birthday but i guess no box is enough to keep thatt😁You are the one who makes me feel special i'm realllyyy luckyy to have you as my cutieee sweetieee boyfriend like uuuuuuu🧿💋I loved you, I love you and I will love you forever🫂🫂Happy birthday to the man I love the mosttt💋💋💋🫂🫂!
 
-You are my favorite person in this whole world.
-Every day with you feels like magic.
-You make me smile even when I don’t want to.
-
-Thank you for loving me, caring for me,
-and being my safe place 🥺💕
-
-I want to be with you forever.
-I love you endlessly 💋💋💋
 
 Forever yours,
-(Your Name) 💌
+(pallavi) 💌
 `;
 
   typingText.innerHTML = "";
