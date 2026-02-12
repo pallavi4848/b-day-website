@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Surprises for My Love 🎁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setupMusic()">
+
+<div class="heart-bg"></div>
+
+<audio id="bgMusic" loop autoplay>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵 Music</button>
+
+<div class="container">
+  <h1>🎀 Choose Your Surprise My Love 🎀</h1>
+  <h2>Karthikeya 💖</h2>
+
+  <p style="color:#b0005a; font-size:18px;">
+    Open all 3 gifts baby 😘💗
+  </p>
+
+  <div class="gift-container">
+    <div>
+      <div class="gift-box" onclick="window.location.href='letter.html'"></div>
+      <div class="gift-title">💌 Surprise 1<br>Love Letter</div>
+    </div>
+
+    <div>
+      <div class="gift-box" onclick="window.location.href='memories.html'"></div>
+      <div class="gift-title">📸 Surprise 2<br>Our Memories</div>
+    </div>
+
+    <div>
+      <div class="gift-box" onclick="window.location.href='party.html'"></div>
+      <div class="gift-title">🎂 Surprise 3<br>Cake Party</div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
 
