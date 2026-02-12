@@ -77,7 +77,6 @@ To my sweetest Karthikeya 💖,
 
 Happy birthday to my love❤️...! whom I care about more than anything in the world..Cheers to 19 my boyy🥂!!! Thank you for being the best part of my happiness and joy🤌💗 I wish our happiness never ends 🥰..Among the few good things that I have ever done in my life, falling in love with you was the best🫣..I wanted to give you all my love for your birthday but i guess no box is enough to keep thatt😁You are the one who makes me feel special i'm realllyyy luckyy to have you as my cutieee sweetieee boyfriend like uuuuuuu🧿💋I loved you, I love you and I will love you forever🫂🫂Happy birthday to the man I love the mosttt💋💋💋🫂🫂!
 
-
 Forever yours,
 (pallavi) 💌
 `;
