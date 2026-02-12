@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Love Letter 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setupMusic()">
+
+<div class="heart-bg"></div>
+
+<audio id="bgMusic" loop autoplay>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵 Music</button>
+
+<div class="container">
+  <h1>💌 A Love Letter For My Love 💌</h1>
+  <h2>Karthikeya 😘💗</h2>
+
+  <p style="color:#b0005a; font-size:18px;">
+    Click open to read my heart 💋
+  </p>
+
+  <div class="envelope"></div>
+
+  <button onclick="startTypingLetter()">Open Letter 💖</button>
+
+  <div id="letterBox" class="letter-box">
+    <pre id="typingText"></pre>
+    <p class="kiss">💋💋💋</p>
+  </div>
+
+  <button onclick="window.location.href='gifts.html'">
+    Back to Gifts 🎁
+  </button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
 
