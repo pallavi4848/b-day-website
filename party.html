@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cake Party 🎉🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setupMusic()">
+
+<div class="heart-bg"></div>
+
+<audio id="bgMusic" loop autoplay>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵 Music</button>
+
+<div class="container">
+  <h1>🎉 Birthday Party Time 🎉</h1>
+  <h2>Karthikeya 😘💖</h2>
+
+  <p style="color:#b0005a; font-size:18px;">
+    Click the party popper my love 😭✨
+  </p>
+
+  <div class="popper" onclick="popParty()">🎊</div>
+
+  <div id="confettiArea"></div>
+
+  <div id="cakeSection" style="display:none;">
+    <h2>🎂 Here is your cake my love 🎂</h2>
+
+    <div class="cake" onclick="cutCake()">🎂</div>
+
+    <p style="color:#b0005a;">
+      Click the cake to cut it 🍰💗
+    </p>
+
+    <div id="cakePieces"></div>
+
+    <button id="nextBtn" style="display:none;" onclick="showFinalMessage()">
+      Next 💌
+    </button>
+
+    <div id="finalMessage" style="display:none; margin-top:30px;">
+      <h2>💖 My Final Message 💖</h2>
+      <p style="color:#d1006c; font-size:20px;">
+        Happy Birthday my love Karthikeya 😭💗  
+        You are my everything and my forever 💋💞  
+        I love you so so so much ❤️✨  
+      </p>
+
+      <button onclick="window.location.href='gifts.html'">
+        Back to Gifts 🎁
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
 
